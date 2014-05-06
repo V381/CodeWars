@@ -1,7 +1,7 @@
 Coding_Kata_A_Day
 =================
 
-Day 1 - For the sake of argument:
+<b>Day 1 - For the sake of argument:</b>
 
 Description:
 
