@@ -1,8 +1,9 @@
 /**
  * Created by JS on 5/7/14.
  */
-
-// Create Calculator object with average method
+(function(){
+    
+    // Create Calculator object with average method
 var Calculator = {
     average: function() {
         var sum = 0; 
@@ -15,6 +16,8 @@ var Calculator = {
         return sum / arguments.length; // Divide sum with number of arguments passed
     }
 };
+    
+})();
 
 /*
 
