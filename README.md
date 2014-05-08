@@ -30,3 +30,7 @@ The test also expects that when you pass no arguments, it returns 0. The argumen
 It expects Calculator.average(3,4,5) to return 4.
 
 <a>http://www.codewars.com/kata/529f32794a6db5d32a00071f</a>
+
+<b>Day 3 - FizzBuzz </b>
+
+"Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”."
