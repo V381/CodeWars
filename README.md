@@ -43,10 +43,10 @@ While developing a website, you detect that some of the members have troubles lo
 
 If you have the input-array:
 
-[ [ "foo", "foo@foo.com" ], [ "bar_", "bar@bar.com" ] ]
+<code>[ [ "foo", "foo@foo.com" ], [ "bar_", "bar@bar.com" ] ]</code>
 it should output
 
-[ [ "bar_", "bar@bar.com" ] ]
+<code>[ [ "bar_", "bar@bar.com" ] ]</code>
 
 You have to use the filter-method of Javascript, which returns each element of the array for which the filter-method returns true.
 
