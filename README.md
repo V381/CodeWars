@@ -52,3 +52,15 @@ You have to use the filter-method of Javascript, which returns each element of t
 
 <a>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter</a>
 <a>http://www.codewars.com/kata/525d9b1a037b7a9da7000905/train/javascript</a>
+
+<b>Day 6 - Building Strings From a Hash</b>
+
+Description:
+
+Complete the solution so that it takes the object (JavaScript/CoffeeScript) or hash (ruby) passed in and generates a human readable string from its key/value pairs.
+
+The format should be "KEY = VALUE". Each key/value pair should be separated by a comma except for the last pair.
+
+Example:
+
+<code>solution({a: 1, b: '2'})</code> // should return "a = 1,b = 2"
