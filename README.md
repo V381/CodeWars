@@ -110,7 +110,7 @@ Create a function christmasTree(height) that returns a christmas tree of the cor
 christmasTree(5) should return:
 
 <code>
-    *    
+   *    
    ***   
   *****  
  ******* 
