@@ -102,3 +102,23 @@ The returned format must be correct in order to complete this challenge.
 Don't forget the space after the closing parenthese!
 
 http://www.codewars.com/kata/525f50e3b73515a6db000b83/train/javascript
+
+<b>Day 9 - Christmas tree </b>
+
+Create a function christmasTree(height) that returns a christmas tree of the correct height
+
+christmasTree(5) should return:
+
+<code>
+    *    
+   ***   
+  *****  
+ ******* 
+*********
+</code>
+
+Height passed is always an integer between 0 and 100.
+
+Use \n for newlines between each line.
+
+Pad with spaces so each line is the same length. The last line having only stars, no spaces.
