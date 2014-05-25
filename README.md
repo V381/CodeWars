@@ -112,3 +112,9 @@ Height passed is always an integer between 0 and 100.
 Use \n for newlines between each line.
 
 Pad with spaces so each line is the same length. The last line having only stars, no spaces.
+
+<b>Day 10 - Shifty Closures</b>
+
+Functional closures can get overly attached. Set them straight!
+
+Why doesn't greet_abe() actually greet Abe?
