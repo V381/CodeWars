@@ -118,3 +118,9 @@ Pad with spaces so each line is the same length. The last line having only stars
 Functional closures can get overly attached. Set them straight!
 
 Why doesn't greet_abe() actually greet Abe?
+
+<b>Day 11 = Reverse Words</b>
+
+Write a reverseWords function that accepts a string a parameter, and reverses each word in the string.
+
+<code>reverseWords("This is an example!"); // returns  "sihT si na !elpmaxe"</code>
