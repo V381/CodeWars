@@ -31,3 +31,5 @@ Codewars Katas
 
 <b>15 - The Vowel Code </b>
 
+<b>16 - Return the missing element </b>
+
