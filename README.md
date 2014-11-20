@@ -33,3 +33,5 @@ Codewars Katas
 
 <b>16 - Return the missing element </b>
 
+<b>17 - Arrays Similar </b>
+
