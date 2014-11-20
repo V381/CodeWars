@@ -1,3 +1,4 @@
+#Write a function that determines whether the passed in arrays are similar. Similar means they contain the same elements, and the same number of occurrences of elements.
 arraysSimilar = (arr1, arr2) ->
   # TODO: Implement your arraysSimilar
   sort = (arr) =>
