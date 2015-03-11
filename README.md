@@ -35,3 +35,5 @@ Codewars Katas
 
 <b>17 - Arrays Similar </b>
 
+<b>18 - Who likes it? </b>
+
