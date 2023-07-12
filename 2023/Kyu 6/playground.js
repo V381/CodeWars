@@ -420,7 +420,7 @@ function smaller(nums) {
     return result;
 }
 
-smaller([5,4,3,2,1]);
+// smaller([5,4,3,2,1]);
 // smaller([1,2,3])
 // smaller([1,2, 0]);
 // smaller([1,2,1]);
@@ -428,3 +428,29 @@ smaller([5,4,3,2,1]);
 // Better: Write a function that given, an array arr, returns an array containing 
 // at each index i the amount of numbers arr[j] that are smaller than arr[i] for j>i.
 // assert.deepEqual(smaller([5, 4, 3, 2, 1]), [4, 3, 2, 1, 0]);
+
+
+function findArray(arr1, arr2){
+    const 
+      newArr = [];
+    let
+      loopOnce = false,
+      j = 0;
+    for 
+      (let 
+       i = 0;
+       i < arr1.length;
+       i++) {
+        if (!loopOnce) {
+            while (j < arr2.length) {
+                newArr.push(arr1[arr2[arr2.indexOf(arr2[j])]])
+                j++
+            }
+            loopOnce = true;
+        }
+      }
+    return newArr;
+  }
+
+findArray([0, 1, 5, 2, 1, 8, 9, 1, 5], [1, 4, 7]);
+findArray([1, 2, 3, 4, 5], [0]);
