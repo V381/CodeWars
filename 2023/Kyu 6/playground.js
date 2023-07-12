@@ -454,3 +454,8 @@ function findArray(arr1, arr2){
 
 findArray([0, 1, 5, 2, 1, 8, 9, 1, 5], [1, 4, 7]);
 findArray([1, 2, 3, 4, 5], [0]);
+
+function range(start, count) {
+    const arr = Array.from({length: count}, (_, index) => start + index);
+    console.log(arr);
+}
