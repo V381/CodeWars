@@ -454,3 +454,79 @@ function findArray(arr1, arr2){
 
 findArray([0, 1, 5, 2, 1, 8, 9, 1, 5], [1, 4, 7]);
 findArray([1, 2, 3, 4, 5], [0]);
+
+// Why so many long-winded and confusing descriptions for simple katas? Could have said something like this:
+//  'A valid string will only contain letters from a-m. Write a function that returns the number of invalid
+//   characters in the string over the number of all characters in the string. E.g.,
+//  3/56 where 3 is the number of invalid characters and 56 is the number of all characters.' 
+
+function sortArray(a1, a2) {
+    const 
+        sorted = [];
+    
+    let 
+        i = 0,
+        j = 0;
+
+    while (i < a1.length) {
+        
+        while (j < a2.length) {
+            if (a1[i].charAt(0) === a2[j].charAt(0)) {
+                sorted.push(a2[j]);
+                break;
+            }
+            j++;
+        }
+        j = 0;
+        i++;
+    }
+    console.log(sorted);
+  }
+
+  function arrange(s) {
+    let 
+        i = 0,
+        j = s.length - 1;
+
+    const
+        newArr = [];
+
+    let flip = false;
+
+    while (i <= j) {
+        if (!flip) {
+            newArr.push(s[i]);
+            newArr.push(s[j]);
+            flip = true;
+        } else {
+            if (newArr.length === s.length) break;
+            newArr.push(s[j]);
+            if (newArr.length === s.length) break;
+            newArr.push(s[i]);
+            flip = false;
+        }
+
+        j--;
+        i++;
+    }
+    console.log(newArr);
+    
+  }
+
+  arrange([1,2,3,4,5,6]);
+  arrange([4,3,2])
+  arrange([2,4,3,4])
+  arrange([9,7,-2,8,5,-3,6,5,1])
+//   S = [1,2,3,4,5,6]
+// T = []
+
+// S = [2,3,4,5] => [5,4,3,2]
+// T = [1,6]
+
+// S = [4,3] => [3,4]
+// T = [1,6,5,2]
+
+// S = []
+// T = [1,6,5,2,3,4]
+// return T
+
